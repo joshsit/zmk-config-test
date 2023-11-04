@@ -25,7 +25,7 @@
                     <&pro_micro 9 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 10 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 11 GPIO_ACTIVE_HIGH>;
-;
+
     };
 
     default_transform: keymap_transform {
