@@ -18,8 +18,8 @@
         bt_layer {
             bindings = <
                 &kp none        &kp none        &bootloader     &kp none    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none
-                &kp none        &kp none        &BT_CLR         &kp none    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none
-                &kp BT_SEL 0    &kp BT_SEL 1    &kp BT_SEL 2    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none
+                &kp none        &kp none        &bt BT_CLR      &kp none    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none
+                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none    &kp none
                                                 &kp none        &kp none    &kp none    &kp none    &kp none    &kp none 
             >;
         };
