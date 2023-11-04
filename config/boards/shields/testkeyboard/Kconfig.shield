@@ -1,2 +1,2 @@
 config SHIELD_TESTKEYBOARD
-    def_boot $(shields_list_contains,testkeyboard)
+    def_bool $(shields_list_contains,testkeyboard)
