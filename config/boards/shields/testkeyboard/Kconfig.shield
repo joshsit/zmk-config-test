@@ -1,2 +1,2 @@
-hconfig SHIELD_TESTKEYBOARD
-    def_boot $(shields_list_contains, testkeyboard)
+config SHIELD_TESTKEYBOARD
+    def_boot $(shields_list_contains,testkeyboard)
