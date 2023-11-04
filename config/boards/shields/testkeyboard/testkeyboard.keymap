@@ -8,8 +8,8 @@
 
         default_layer {
             bindings = <
-                &kp A 
-                
+                &bt BT_CLR  &bootloader
+                &kp A       &kp KP_N1               
             >;
 
         };
